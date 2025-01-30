@@ -1,0 +1,136 @@
+/* Reset & General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/codb1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header h1 {
+    color: #F65C08;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* Login & Signup Box */
+.login-container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    width: 350px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.login-container h2 {
+    color: #F65C08;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.login-container label {
+    display: block;
+    text-align: left;
+    color: white;
+    margin: 10px 0 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #F65C08;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+}
+
+/* Button */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #F65C08;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background: yellow;
+    color: black;
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

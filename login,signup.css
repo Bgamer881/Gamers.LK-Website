@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    background-image: url("codb1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+.site-title {
+    color: #F65C08;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Navigation */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Signup Box */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.signup-box {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.signup-box h3 {
+    margin-bottom: 20px;
+}
+
+.signup-box label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.signup-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+footer a {
+    color: #E7E1D7;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .signup-box {
+        width: 80%;
+    }
+}

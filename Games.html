@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Games - Gamers.LK</title>
+  <link rel="stylesheet" type="text/css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      padding-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url("images/wallpaperflare.com_wallpaper.jpg") no-repeat center center/cover;
+    }
+
+    .game-container {
+      max-width: 250px;
+      width: 100%;
+      height: 350px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: black;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 16px;
+      color: red;
+      transition: transform 0.3s ease-in-out;
+      opacity: 0.9;
+      text-align: center;
+    }
+
+    .game-container:hover {
+      color: yellow;
+      transform: scale(1.05);
+    }
+
+    .game-image {
+      width: 100%;
+      height: 70%; 
+      object-fit: cover;
+    }
+
+    .game-details {
+      padding: 16px;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: black;
+      text-align: left;
+      padding: 10px 20px;
+      z-index: 1000;
+      opacity: 0.9;
+    }
+
+    .header a {
+      color: #F65C08;
+      text-decoration: none;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 24px;
+    }
+
+    .home {
+      position: fixed;
+      top: 12px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .home a {
+      color: #F65C08;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .footer {
+      width: 100%;
+      background-color: black;
+      text-align: center;
+      color: #F65C08;
+      padding: 10px;
+      opacity: 0.9;
+      position: relative;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1><a href="index.html">Gamers.LK</a></h1>
+  </div>
+  
+  <div class="home">
+    <h2><a href="index.html">Back to Home</a></h2>
+  </div>
+
+  <!-- Game Listings -->
+  <div class="game-container">
+    <a href="allgames/ac_mirrage.html"><img class="game-image" src="gimgs/wp12300518-assassins-creed-mirage-wallpapers.jpg" alt="Assassin's Creed Mirage"></a>
+    <div class="game-details">
+      <p>Assassin's Creed Mirage</p>
+      <p>Genre: Action-adventure</p>
+      <p>Release Date: October 2023</p>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <a href="allgames/A_Plague_Tale_Requiem.html"><img class="game-image" src="gimgs/wp11909448-a-plague-tale-requiem-hd-wallpapers.jpg" alt="A Plague Tale: Requiem"></a>
+    <div class="game-details">
+      <p>A Plague Tale: Requiem</p>
+      <p>Genre: Action-adventure</p>
+      <p>Release Date: October 17, 2022</p>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <a href="allgames/Elden_Ring.html"><img class="game-image" src="gimgs/Elden Ring Wallpapers Dark souls wallpaper Dark fantasy art.jpg" alt="Elden Ring"></a>
+    <div class="game-details">
+      <p>Elden Ring</p>
+      <p>Genre: Action role-playing</p>
+      <p>Release Date: February 25, 2022</p>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <a href="allgames/God_of_War_Ragnarok.html"><img class="game-image" src="gimgs/wp11690913-god-of-war-ragnarok-2022-wallpapers.jpg" alt="God of War Ragnarök"></a>
+    <div class="game-details">
+      <p>God of War Ragnarök</p>
+      <p>Genre: Action-adventure</p>
+      <p>Release Date: November 9, 2022</p>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <a href="allgames/Dying_Light_2_Stay_Human.html"><img class="game-image" src="gimgs/wp4437103-dying-light-2-wallpapers.jpg" alt="Dying Light 2"></a>
+    <div class="game-details">
+      <p>Dying Light 2 Stay Human</p>
+      <p>Genre: Action survival horror</p>
+      <p>Release Date: February 4, 2022</p>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Gamers.LK Since 2023, Game Analysis Website</p>
+  </div>
+</body>
+</html>

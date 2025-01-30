@@ -1,0 +1,100 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    background-image: url("../images/codb1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures body takes at least the full viewport height */
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0px 0;
+    text-align: center;
+}
+
+.logo {
+    color: #F65C08;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: yellow;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.highlight {
+    color: #F65C08;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer a {
+    color: #E7E1D7;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: yellow;
+}

@@ -1,0 +1,40 @@
+/* Make elements responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .loginbox, .signup-box {
+    width: 90%;
+    left: 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+/* More responsive adjustments for small screens */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .apct {
+    width: 100%;
+    margin-top: 150px;
+  }
+}

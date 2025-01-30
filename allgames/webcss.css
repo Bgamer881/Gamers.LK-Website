@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  background-image: url('wp10511287-a-plague-tale-requiem-wallpapers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  opacity: 0.9;
+  background-color: black;
+  color: #F65C08;
+  padding: 12px;
+  text-align: center;
+}
+
+.footer {
+  opacity: 0.9;
+  background-color: black;
+  padding: 12px;
+  color: #E7E1D7;
+  text-align: center;
+}
+
+.home {
+  position: relative;
+  margin: 10px;
+  text-align: center;
+}
+
+.apct {
+  background-color: black;
+  opacity: 0.9;
+  color: #E7E1D7;
+  padding: 10px;
+  margin-top: 135px;
+  width: 90%;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header, .footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .home, .login, .aboutus, .games {
+    margin: 15px auto;
+  }
+
+  .apct {
+    margin-top: 160px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .apct {
+    width: 100%;
+    margin-top: 150px;
+  }
+}
